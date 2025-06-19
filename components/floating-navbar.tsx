@@ -78,7 +78,7 @@ export function FloatingNavbar() {
       icon: (
         <GitLabIcon className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://gitlab.com/jdcbonina/",
+      href: "#",
     },
   ];
 
