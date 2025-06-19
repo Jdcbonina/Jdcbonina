@@ -62,6 +62,6 @@ export const siteConfig = {
   links: {
     facebook: "https://www.facebook.com/JDCBonina",
     instagram: "https://www.instagram.com/jdcbonina/",
-    gitlab: "https://gitlab.com/jdcbonina",
+    gitlab: "#",
   },
 };
