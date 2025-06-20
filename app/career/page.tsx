@@ -1,5 +1,5 @@
-import Component from "./_component/component";
+import Content from "./_component/content";
 
 export default function AboutPage() {
-  return <Component />;
+  return <Content />;
 }
