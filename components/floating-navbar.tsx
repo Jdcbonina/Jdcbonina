@@ -83,7 +83,7 @@ export function FloatingNavbar() {
   ];
 
   return (
-    <div className="fixed bottom-0 left-0 w-full flex items-end justify-center mb-4">
+    <div className="fixed bottom-0 left-0 w-full flex items-end justify-center mb-4 z-50">
       <FloatingDock items={links} />
     </div>
   );

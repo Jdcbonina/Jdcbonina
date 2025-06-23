@@ -55,25 +55,25 @@ const LeftSide = () => {
           
           <div className='py-4'> 
             <div className="flex h-5 items-center space-x-6 text-small">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://facebook.com" target="_blank">
                 <FacebookIcon className="w-10 h-10 rounded-full p-2 text-gray-600 bg-gray-200 dark:text-neutral-400 dark:bg-[#020617] hover:text-gray-600 transition" />
               </a>
 
               <Divider orientation="vertical" />
 
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://instagram.com" target="_blank">
                 <InstagramIcon className="w-10 h-10 rounded-full p-2 text-gray-600 bg-gray-200 dark:text-neutral-400 dark:bg-[#020617] hover:text-gray-600 transition" />
               </a>
 
               <Divider orientation="vertical" />
 
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com" target="_blank">
                 <GithubIcon className="w-10 h-10 rounded-full p-2 text-gray-600 bg-gray-200 dark:text-neutral-400 dark:bg-[#020617] hover:text-gray-600 transition" />
               </a>
 
               <Divider orientation="vertical" />
 
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com" target="_blank">
                 <GitLabIcon className="w-10 h-10 rounded-full p-2 text-gray-600 bg-gray-200 dark:text-neutral-400 dark:bg-[#020617] hover:text-gray-600 transition" />
               </a>
             </div>
@@ -89,7 +89,7 @@ const LeftSide = () => {
               <span>jdcbonina@gmail.com</span>
             </a>
 
-            <a href="tel:+639274049640"
+            <a href="tel:+639544297933"
               className="flex items-center gap-3 text-gray-600 dark:text-gray-300 hover:underline"
             >
               <Phone className="w-5 h-5" />

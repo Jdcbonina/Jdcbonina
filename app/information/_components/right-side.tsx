@@ -17,8 +17,8 @@ const RightSide = () => {
     >
       <motion.div
         initial={{ opacity: 0.0, x: 20 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.5, delay: 0.2, ease: "easeInOut", }}>
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5, delay: 0.2, ease: "easeInOut", }}>
         <Card className="dark:bg-slate-900 bg-gray-100 rounded-2xl min-h-[1000px] shadow-2xl">
 
           <CardBody className="p-8 space-y-8 mb-16">
@@ -42,7 +42,7 @@ const RightSide = () => {
                   <motion.div
                   initial={{ opacity: 0, y: 0 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.4, delay: 0.5 + (index * 0.1) }}
+                  transition={{ duration: 0.4, delay: 0.2 + (index * 0.1) }}
                     key={skill}
                     className="flex items-center gap-2 bg-gray-600 dark:bg-blacksection text-white py-2 px-4 rounded-xl shadow-sm hover:bg-opacity-80 transition"
                   >
@@ -58,7 +58,11 @@ const RightSide = () => {
             <div className="space-y-4">
               <h2 className="text-2xl font-semibold text-gray-800 dark:text-white">Experience</h2>
               
-              <div className="flex justify-between items-start p-4 bg-white dark:bg-slate-800 rounded-2xl shadow-md">
+              <motion.div
+                initial={{ opacity: 0.0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.2, ease: "easeInOut", }}
+                className="flex justify-between items-start p-4 bg-white dark:bg-slate-800 rounded-2xl shadow-md">
                 <div>
                   <h3 className="text-lg font-bold text-gray-800 dark:text-white">Service Crew</h3>
                   <p className="text-sm text-gray-600 dark:text-gray-300">McDonald&apos;s</p>
@@ -68,9 +72,13 @@ const RightSide = () => {
                   <p className="text-sm italic text-gray-500 dark:text-gray-400">Jul 2017 – Apr 2018</p>
                   <p className="text-sm italic text-gray-500 dark:text-gray-400">Parañaque City - Palañag Branch</p>
                 </div>
-              </div>
+              </motion.div>
 
-              <div className="flex justify-between items-start p-4 bg-white dark:bg-slate-800 rounded-2xl shadow-md">
+              <motion.div
+                initial={{ opacity: 0.0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.3, ease: "easeInOut", }}
+                className="flex justify-between items-start p-4 bg-white dark:bg-slate-800 rounded-2xl shadow-md">
                 <div>
                   <h3 className="text-lg font-bold text-gray-800 dark:text-white">Technical Support</h3>
                   <p className="text-sm text-gray-600 dark:text-gray-300">Atlas Shippers International</p>
@@ -80,9 +88,13 @@ const RightSide = () => {
                   <p className="text-sm italic text-gray-500 dark:text-gray-400">June 2018 – January 2020</p>
                   <p className="text-sm italic text-gray-500 dark:text-gray-400">Las Piñas City - Main Office</p>
                 </div>
-              </div>
+              </motion.div>
 
-              <div className="flex justify-between items-start p-4 bg-white dark:bg-slate-800 rounded-2xl shadow-md">
+              <motion.div
+                initial={{ opacity: 0.0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.4, ease: "easeInOut", }}
+                className="flex justify-between items-start p-4 bg-white dark:bg-slate-800 rounded-2xl shadow-md">
                 <div>
                   <h3 className="text-lg font-bold text-gray-800 dark:text-white">Software Developer</h3>
                   <p className="text-sm text-gray-600 dark:text-gray-300">LOGO Inc. (Longares Global Operations, Inc.)</p>
@@ -92,26 +104,34 @@ const RightSide = () => {
                   <p className="text-sm italic text-gray-500 dark:text-gray-400">May 2020 – Present</p>
                   <p className="text-sm italic text-gray-500 dark:text-gray-400">Las Piñas City - Main Office</p>
                 </div>
-              </div>
+              </motion.div>
             </div>
 
             <Divider className="my-4" />
               
             <div className="space-y-4">
               <h2 className="text-2xl font-semibold text-gray-800 dark:text-white">Certificates</h2>
-              <div className="flex justify-between items-start p-4 bg-white dark:bg-slate-800 rounded-2xl shadow-md">
+              <motion.div
+                initial={{ opacity: 0.0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.5, ease: "easeInOut", }}
+                className="flex justify-between items-start p-4 bg-white dark:bg-slate-800 rounded-2xl shadow-md">
                 <div className='space-y-2'>
                   <h3 className="text-lg font-bold text-gray-800 dark:text-white">Zuitt Coding Bootcamp <span className='font-normal text-sm'>(01/2020 - 03/2020)</span></h3>
                   <p className="text-sm text-gray-600 dark:text-gray-300">A web development bootcamp focusing on both frontend technologies such us HTML, CSS and Bootstrap; and backend technologies such as Javascript PHP, MySQL, Laravel, MongoDB, Express and Node JS</p>
                 </div>
-              </div>
+              </motion.div>
             </div>
 
             <Divider className="my-4" />
 
             <div className="space-y-4">
               <h2 className="text-2xl font-semibold text-gray-800 dark:text-white">Education</h2>
-              <div className="flex justify-between items-start p-4 bg-white dark:bg-slate-800 rounded-2xl shadow-md">
+              <motion.div
+                initial={{ opacity: 0.0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.6, ease: "easeInOut", }}
+                className="flex justify-between items-start p-4 bg-white dark:bg-slate-800 rounded-2xl shadow-md">
                 <div>
                   <h3 className="text-lg font-bold text-gray-800 dark:text-white">High School</h3>
                   <p className="text-sm text-gray-600 dark:text-gray-300">Las Piñas East National High School - Equitable Village Annex</p>
@@ -121,9 +141,13 @@ const RightSide = () => {
                   <p className="text-sm italic text-gray-500 dark:text-gray-400">June 2010 – April 2014</p>
                   <p className="text-sm italic text-gray-500 dark:text-gray-400">Las Piñas City</p>
                 </div>
-              </div>
+              </motion.div>
 
-              <div className="flex justify-between items-start p-4 bg-white dark:bg-slate-800 rounded-2xl shadow-md">
+              <motion.div
+                initial={{ opacity: 0.0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.7, ease: "easeInOut", }}
+                className="flex justify-between items-start p-4 bg-white dark:bg-slate-800 rounded-2xl shadow-md">
                 <div>
                   <h3 className="text-lg font-bold text-gray-800 dark:text-white">Bachelor of Science in Information Technology</h3>
                   <p className="text-sm text-gray-600 dark:text-gray-300">College of Saint Adeline</p>
@@ -133,7 +157,7 @@ const RightSide = () => {
                   <p className="text-sm italic text-gray-500 dark:text-gray-400">June 2015 – April 2019</p>
                   <p className="text-sm italic text-gray-500 dark:text-gray-400">Parañaque City</p>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </CardBody>
         </Card>
