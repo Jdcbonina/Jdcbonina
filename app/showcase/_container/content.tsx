@@ -39,7 +39,7 @@ export const Content = () => {
     {
       title: "7107 Islands(First Design)",
       src: "projects/7107-landing/full.png",
-      link: "https://7107-landing-fmfb.vercel.app",
+      link: "https://7107-landing.vercel.app",
     },
   ];
 
