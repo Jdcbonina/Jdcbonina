@@ -5,7 +5,7 @@ import { Card, CardBody } from '@heroui/card'
 import { Divider, Image } from '@heroui/react'
 import { FacebookIcon, GithubIcon, GitLabIcon, InstagramIcon } from '@/components/icons'
 import { useTheme } from 'next-themes'
-import { Mail, Phone, Calendar } from "lucide-react";
+import { Mail, Phone, MapPinHouse } from "lucide-react";
 import { motion } from 'framer-motion'
 
 const LeftSide = () => {
@@ -97,8 +97,8 @@ const LeftSide = () => {
             </a>
 
             <div className="flex items-center gap-3 text-gray-600 dark:text-gray-300">
-              <Calendar className="w-5 h-5 " />
-              <span>04 July, 1997</span>
+              <MapPinHouse  className="w-5 h-5 " />
+              <span>Talon Kuatro, Las Piñas, Metro Manila is 1747</span>
             </div>
           </div>
         </CardBody>
